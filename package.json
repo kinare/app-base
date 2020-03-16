@@ -9,11 +9,18 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "buefy": "^0.8.2",
+    "bulma-extensions": "^6.2.7",
+    "bulma-helpers": "^0.3.8",
     "core-js": "^3.6.4",
+    "moment": "^2.22.0",
+    "moment-timezone": "^0.5.26",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "vuex-persist": "^2.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
@@ -23,7 +30,6 @@
     "@vue/cli-plugin-unit-mocha": "~4.2.0",
     "@vue/cli-plugin-vuex": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
     "@vue/test-utils": "1.0.0-beta.31",
     "babel-eslint": "^10.0.3",
     "chai": "^4.1.2",
@@ -31,17 +37,13 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-vue": "^6.1.2",
     "lint-staged": "^9.5.0",
-    "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    "vue-template-compiler": "^2.6.11",
+    "lodash": "^4.17.15",
+    "@vue/eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "expose-loader": "^0.7.5",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1"
   }
 }
