@@ -6,6 +6,7 @@ import store from "./store";
 import App from "./App";
 import Landing from "./plugins/landing";
 import Auth from "./plugins/auth";
+import "@mdi/font/css/materialdesignicons.css";
 
 const options = { router, store };
 

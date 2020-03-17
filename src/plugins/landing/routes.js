@@ -5,7 +5,7 @@ import download from "./views/download";
 
 export default [
   {
-    path: "/landing",
+    path: "/",
     component: index,
     children: [
       {

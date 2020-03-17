@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Logo",
+  name: "logo",
   props: ["size"]
 };
 </script>

@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "buefy": "^0.8.2",
+    "@mdi/font": "^4.5.95",
+    "buefy": "^0.8.13",
     "bulma-extensions": "^6.2.7",
     "bulma-helpers": "^0.3.8",
     "core-js": "^3.6.4",
