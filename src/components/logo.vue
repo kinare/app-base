@@ -1,5 +1,5 @@
 <template>
-  <img src="/img/logo.png" :width="size" />
+  <img src="@/assets/logo.jpg" :width="size" :height="size" alt="logo" style="border-radius: 50%" />
 </template>
 
 <script>

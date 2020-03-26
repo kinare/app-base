@@ -4,6 +4,10 @@
 
     <about />
 
+    <courses />
+
+    <campuses />
+
     <team />
 
     <testimonial />
@@ -21,10 +25,14 @@ import Team from "./components/team";
 import Testimonial from "./components/testimonial";
 import Contact from "./components/contact";
 import Foot from "./components/foot";
+import Courses from "./components/courses";
+import Campuses from "./components/campuses";
 
 export default {
   name: "Landing",
   components: {
+    Campuses,
+    Courses,
     Foot,
     Contact,
     Testimonial,

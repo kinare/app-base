@@ -11,6 +11,9 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
 @import url("https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap");
 
 // Import Bulma's core
@@ -27,7 +30,7 @@ $color4: #20115b;
 $color5: #010108;
 
 // Set your colors
-$primary: #7232f2;
+$primary: #00a8ff;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);

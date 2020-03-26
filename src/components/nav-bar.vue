@@ -1,10 +1,13 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar is-size-6">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item">
-          <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo" />
-        </a>
+        <router-link to="/" class="navbar-item" >
+          <logo size="20" />
+          <span class="has-margin-left-5" style="text-transform: uppercase; font-weight: bold;"
+            >Eldoret Bible College</span
+          >
+        </router-link>
         <span class="navbar-burger burger" data-target="navbarMenuHeroA">
           <span></span>
           <span></span>
@@ -13,21 +16,30 @@
       </div>
       <div id="navbarMenuHeroA" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item is-active">
-            Home
+          <a class="navbar-item" href="#about">
+            About Us
           </a>
-          <a class="navbar-item">
-            Examples
+          <a class="navbar-item" href="#courses">
+            Courses
           </a>
-          <a class="navbar-item">
-            Documentation
+          <a class="navbar-item" href="#campus">
+            Campus
           </a>
+          <a class="navbar-item" href="#team">
+            Team
+          </a>
+          <a class="navbar-item" href="#testimonial">
+            Testimonials
+          </a>
+          <router-link to="/gallery" class="navbar-item">
+            Gallery
+          </router-link>
+          <router-link to="/download" class="navbar-item">
+            Downloads
+          </router-link>
           <span class="navbar-item">
-            <a class="button is-primary is-inverted">
-              <span class="icon">
-                <i class="fab fa-github"></i>
-              </span>
-              <span>Download</span>
+            <a href="#contact" class="button is-primary is-inverted">
+              <span>Contacts</span>
             </a>
           </span>
         </div>
@@ -37,9 +49,15 @@
 </template>
 
 <script>
+import Logo from "./logo";
 export default {
-  name: "nav-bar"
+  name: "nav-bar",
+  components: { Logo }
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.router-link-exact-active {
+  font-weight: bold;
+}
+</style>
