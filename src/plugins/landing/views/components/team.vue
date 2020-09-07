@@ -3,14 +3,14 @@
     <div class="hero-body">
       <div class="container">
         <div class="content has-margin-bottom-100">
-          <h1 class="heading">Team</h1>
-          <p>EBC team</p>
+          <h1 class="heading">Board of Directors</h1>
+          <p>Board of Directors</p>
         </div>
         <div class="columns">
           <div class="column is-10 is-offset-1">
             <div class="columns is-multiline">
               <div class="column is-one-third" v-for="(member, index) in team" :key="index">
-                <div class="card">
+                <div class="card" v-if="member.avatar">
                   <div class="card-image">
                     <figure
                       class="image is-3by4"
@@ -48,17 +48,17 @@ export default {
       return [
         {
           name: "Dr. Rebecca Polis",
-          title: "Vice President",
+          title: "Director",
           avatar: "rebeca.jpg"
         },
         {
           name: "Dr. John Polis",
-          title: "Founder and President",
+          title: "Director",
           avatar: "john.jpg"
         },
         {
           name: "Ben Ambani",
-          title: "(DD,MDiv,MPA)",
+          title: "Director",
           avatar: "ambani.jpg"
         },
         {
@@ -66,15 +66,11 @@ export default {
           title: "Academic/Distance Learning Program",
           avatar: "jeremiah.jpg"
         },
+        {},
         {
           name: "Faith Keter",
           title: "Administration/Finance",
-          avatar: "faith.jpg"
-        },
-        {
-          name: "Ph.D Wambua Kyalo Benjamin",
-          title: "Post Graduate/Research",
-          avatar: "wambua.png"
+          avatar: "faith.jpeg"
         }
       ];
     }

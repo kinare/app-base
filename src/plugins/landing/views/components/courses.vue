@@ -61,11 +61,6 @@ export default {
           body: ""
         },
         {
-          title: "Diploma in Social work & Comm Development",
-          period: "Academic Period : 3 YEARS",
-          body: "Examining Body : KNEC"
-        },
-        {
           title: "Diploma in Entrepreneurship",
           period: "Academic Period : 2 YEARS",
           body: "Examining Body : KNEC"
@@ -73,10 +68,6 @@ export default {
         {
           title: "Certificate in Theology",
           period: "Academic Period : 1 YEAR"
-        },
-        {
-          title: "Masters of Christian Leadership",
-          period: "Academic Period : 2 YEAR"
         }
       ];
     }

@@ -33,11 +33,6 @@ export default {
             "Outspan off Nairobi Road, 7 Km from Eldoret Town after Moi University Annex."
         },
         {
-          name: "TOWN CAMPUS ELDORET",
-          time: "Time: 8.00 .A.M TO 5.00 P.M.(MON-FRI)",
-          description: "Khetia Building along Ronald Ngala street 6th floor right wing."
-        },
-        {
           name: "NAIROBI WOODLEY CAMPUS",
           time: "Time: 5.00 .P.M TO 8.00 P.M.(MON-FRI)",
           description: "Located at Chrisco Central Church"
@@ -45,13 +40,18 @@ export default {
         {
           name: "KITENGELA CAMPUS",
           time: "Time: 9.00.A.M TO 5.00 P.M(SATURDAYS)",
-          description: "EPZ ESTATE(NEXT TO KITENGELA MEDICAL)."
+          description: "Linex Guest house."
+        },
+        {
+          name: "NAKURU CAMPUS",
+          time: "Time: 9.00.A.M TO 5.00 P.M(SATURDAYS)",
+          description: "Peniel Hotel Milimani, Golf road Nakuru."
         },
         {
           name:
-            "NAIROBI VIEW PARK TOWERS CAMPUS EBC in partnership with Joe Kayo School of Ministry",
+            "NAIROBI CBD CAMPUS AT STANBANK HOUSE in partnership with Joe Kayo School of Ministry",
           time: "Time: 5.00 .P.M TO 8.00 P.M. (MON-FRI)",
-          description: "View park Towers Along Utalii Lane, 7th Floor, Room 6 Monday-Friday."
+          description: "1 st floor Royal Business College Moi Avenue, near National Archives"
         }
       ];
     }

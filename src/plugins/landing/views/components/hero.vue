@@ -51,7 +51,7 @@ export default {
     return {
       carousels: [
         {
-          text: "ELDORET BIBLE COLLEGE @ 20 YEARS",
+          text: "ELDORET BIBLE COLLEGE @ 22 YEARS",
           subtitle: "Since April 12, 1998",
           cover:
             "https://images.unsplash.com/photo-1470686164816-830d3688f62c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=780591328d1d9c087c2173bcd7567cc6&auto=format&fit=crop&w=1506&q=80"
