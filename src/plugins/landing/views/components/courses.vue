@@ -12,7 +12,9 @@
               <p>
                 EBC provides its students with on and off campus library services. We have Spirit
                 filled and Anointed teaching staff. These are men and women of God who have been in
-                the Ministry for over 20 years. <a href="/download/BTH_app_form2019 2.docx" target="_blank">Join now</a> to be equipped by World renowned ministers.
+                the Ministry for over 20 years.
+                <a href="/download/BTH_app_form2019 2.docx" target="_blank">Join now</a> to be
+                equipped by World renowned ministers.
               </p>
               <h3>Duration & Attendance Pattern</h3>
               <p>

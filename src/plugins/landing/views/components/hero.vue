@@ -59,12 +59,14 @@ export default {
         {
           text: "CHANGING LEADERS TO CHANGE THE CHRISTIAN TO CHANGE THE WORLD",
           subtitle: "Acquire affordable, high quality spiritually balanced Christian education",
-          cover: "/img/background/bible2.jpg"
+          cover:
+            "https://images.unsplash.com/photo-1536704231234-beca9772ca68?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
         },
         {
           text: "Promoting excellence and Christ-like character in Christian Ministry. ",
           subtitle: "",
-          cover: "/img/background/bible.jpg"
+          cover:
+            "https://images.unsplash.com/photo-1469228252629-cbe7cb7db2c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80"
         }
       ]
     };

@@ -22,6 +22,7 @@
               Paybill 910200 AC 2170008761
             </p>
             <a
+              href="mailto:eldoretbiblecollege@gmail.com"
               class="button is-fullwidth is-medium has-margin-top-30 has-margin-bottom-30 is-primary"
               >Send us mail</a
             >
@@ -30,7 +31,11 @@
               <a class="button is-rounded is-primary has-margin-5">
                 <b-icon icon="twitter" size="is-small"> </b-icon>
               </a>
-              <a class="button is-rounded is-primary has-margin-5">
+              <a
+                href="https://www.facebook.com/Eldoret-Bible-College-157974138162959/"
+                target="_blank"
+                class="button is-rounded is-primary has-margin-5"
+              >
                 <b-icon icon="facebook" size="is-small"> </b-icon>
               </a>
               <a class="button is-rounded is-primary has-margin-5">

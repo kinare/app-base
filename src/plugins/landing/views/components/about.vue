@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-medium is-bold" id="about">
+  <section class="hero is-medium is-white is-bold" id="about">
     <div class="hero-body">
       <div class="container">
         <div class="content has-margin-bottom-70">
@@ -21,7 +21,12 @@
                 and its registered in Kenya to offer Diploma in Theology. To prepare, equip and
                 impart an anointing to Christian leaders for the fulfillment of the Great
                 Commission. (Mathew 28:19-20). to view clearly how all works.
-                <a href="/download/eldoret bible college brochure 2017-1.pdf" target="_blank" class="is-link">...read more</a>
+                <a
+                  href="/download/eldoret bible college brochure 2017-1.pdf"
+                  target="_blank"
+                  class="is-link"
+                  >...read more</a
+                >
               </p>
             </div>
           </div>

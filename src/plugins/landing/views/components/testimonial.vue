@@ -1,52 +1,46 @@
 <template>
-  <div class="hero is-medium " id="testimonial">
-    <div class="hero-body">
-      <div class="content has-margin-bottom-70">
-        <h1 class="heading">Testimonials</h1>
-      </div>
-      <b-carousel
-        :animated="true"
-        :has-drag="true"
-        :autoplay="true"
-        :pause-hover="false"
-        :pause-info="false"
-        :pause-info-type="'is-primary'"
-        :interval="3000"
-        :repeat="true"
-        :indicator="true"
-        :indicator-background="false"
-        :indicator-inside="true"
-        :indicator-mode="'hover'"
-        :indicator-position="'is-bottom'"
-        :indicator-style="'is-lines'"
-      >
-        <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-          <section class="hero is-medium is-white">
-            <div class="hero-body">
-              <div class="columns is-multiline">
-                <div class="column is-half is-offset-one-quarter">
-                  <div class="content has-text-centered has-padding-left-80 has-padding-right-80">
-                    <figure class="image is-96x96 is-inline-block">
-                      <img class="is-rounded" :src="`/img/testimony/${carousel.avatar}`" />
-                    </figure>
-                    <p>
-                      " {{ carousel.excerpt }}
-                      <a v-if="carousel.text !== ''" @click="readMore(carousel)" class="is-link"
-                        >...read more</a
-                      >
-                      "
-                    </p>
-                    <h5 class="title has-text-primary">{{ carousel.name }}</h5>
-                    <p class="subtitle is-size-7 has-text-grey-light">{{ carousel.title }}</p>
-                  </div>
+  <section>
+    <b-carousel
+      :animated="true"
+      :has-drag="true"
+      :autoplay="true"
+      :pause-hover="false"
+      :pause-info="false"
+      :pause-info-type="'is-primary'"
+      :interval="3000"
+      :repeat="true"
+      :indicator="true"
+      :indicator-background="false"
+      :indicator-inside="true"
+      :indicator-mode="'hover'"
+      :indicator-position="'is-bottom'"
+      :indicator-style="'is-lines'"
+    >
+      <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
+        <section class="hero is-medium is-white is-bold">
+          <div class="hero-body">
+            <div class="columns is-multiline">
+              <div class="column is-half is-offset-one-quarter">
+                <div class="content has-text-centered has-padding-left-80 has-padding-right-80">
+                  <figure class="image is-96x96 is-inline-block">
+                    <img class="is-rounded" :src="`/img/testimony/${carousel.avatar}`" />
+                  </figure>
+                  <p>
+                    " {{ carousel.excerpt }}
+                    <a v-if="carousel.text !== ''" @click="readMore(carousel)" class="is-link"
+                      >...read more</a
+                    >
+                    "
+                  </p>
+                  <h5 class="title has-text-primary">{{ carousel.name }}</h5>
+                  <p class="subtitle is-size-7 has-text-grey-light">{{ carousel.title }}</p>
                 </div>
               </div>
             </div>
-          </section>
-        </b-carousel-item>
-      </b-carousel>
-    </div>
-
+          </div>
+        </section>
+      </b-carousel-item>
+    </b-carousel>
     <div class="modal" :class="{ 'is-active': modal }">
       <div class="modal-background"></div>
       <div class="modal-card">
@@ -64,7 +58,7 @@
         </section>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
